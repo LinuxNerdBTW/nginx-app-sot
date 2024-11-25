@@ -3,7 +3,6 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: nginx-app-sot
-  namespace: k8s
 spec:
   interval: 30s
   ref:
